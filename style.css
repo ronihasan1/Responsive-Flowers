@@ -21,21 +21,27 @@
 }
 
 /* related style*/
-.container{
+.container {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+img {
+    width: 100%;
+}
+
 /* Navbar */
-.nav-section{
+.nav-section {
     padding: 30px 0 0 0;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-menu{
+
+.nav-menu {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -43,15 +49,105 @@ nav{
     gap: 48px;
 }
 
-.nav-link{
-    font-size: ;
+.nav-link {
+    /* font-size: ;
     color: 
-    font-weight: ;
+    font-weight: ; */
     text-decoration: none;
 }
-.nav-link2,.nav-link3{
+
+.nav-link2,
+.nav-link3 {
     color: #8987A1;
 }
-.nav-link1,.nav-link4{
+
+.nav-link1,
+.nav-link4 {
     color: #252432;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.left-banner,
+.right-baner {
+    flex: 1;
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 13px;
+}
+
+.fresh-flowers {
+    color: #E95A08;
+}
+
+.banner-description {
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Plants Section */
+.Plants-header {
+    text-align: center;
+    margin-bottom: 49PX;
+}
+
+.plants-title {
+    font-size: 50px;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    margin-bottom: 16PX;
+}
+
+.plants-description {
+    max-width: 888PX;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.plants{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
+.card-img{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-body{
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+.card-title{
+    color: #111111;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.card-price{
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    border: none;
+    padding: 26px 50px;
 }
