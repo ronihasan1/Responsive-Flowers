@@ -387,11 +387,11 @@ footer {
     }
 
     .brand img {
-        max-width: 100%;
+        max-width: 63px;
     }
-    .nav-link4{
+    /* .nav-link4{
         font-size: 1.5rem;
-    }
+    } */
     .nav-link1,
     .nav-link2,
     .nav-link3,
