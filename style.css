@@ -246,24 +246,74 @@ main>section {
     left: 0;
 }
 
-.deal-persent{
+.deal-persent {
     font-size: 20px;
     font-family: "Noto Serif", serif;
     font-weight: 700;
     color: #FFFFFF;
 }
-.deal-shop{
-    font-size: 16px ;
+
+.deal-shop {
+    font-size: 16px;
     font-family: "Inter", sans-serif;
     font-weight: 600;
     color: #FFFFFF;
     margin: 20px 0;
 }
-.deal-persent3{
+
+.deal-persent3 {
     font-size: 40px;
 }
-.deal-persent4{
+
+.deal-persent4 {
     font-size: 28px;
     font-weight: 600;
     font-family: "Inter", sans-serif;
+}
+
+/* Join Section */
+.join-main {
+    padding: 202px 0;
+    background-image: url(./image/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.join-body {
+    text-align: center;
+}
+
+.join-title {
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    margin-bottom: 23PX;
+}
+
+.join-input-fild {
+    display: flex;
+    max-width: 830px;
+    margin: 0px auto;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.join-input-fild input,
+.btn-area {
+    display: block;
+    padding: 15px 20px;
+}
+
+#email {
+    flex: 1;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn {
+    width: 186px;
 }
