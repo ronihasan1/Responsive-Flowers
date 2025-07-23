@@ -374,16 +374,24 @@ footer {
     }
 
     /* header */
-    img{
+    img {
         width: 100%;
     }
+
     nav {
         margin: 0 20px;
     }
-    .nav-menu{
+
+    .nav-menu {
         gap: 10px;
     }
 
+    .brand img {
+        max-width: 100%;
+    }
+    .nav-link4{
+        font-size: 1.5rem;
+    }
     .nav-link1,
     .nav-link2,
     .nav-link3,
@@ -471,6 +479,7 @@ footer {
 
     nav {
         margin: 0 10px;
+        align-items: center;
     }
 
     /* banner */
