@@ -100,6 +100,7 @@ main>section {
 .banner-description {
     font-size: 22px;
     font-family: var(--inter-font);
+    padding: 0 14px 0px 0;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -373,8 +374,14 @@ footer {
     }
 
     /* header */
+    img{
+        width: 100%;
+    }
     nav {
         margin: 0 20px;
+    }
+    .nav-menu{
+        gap: 10px;
     }
 
     .nav-link1,
@@ -458,8 +465,12 @@ footer {
         width: 100%;
     }
 
+    img {
+        width: 100%;
+    }
+
     nav {
-        margin: 0 20px;
+        margin: 0 10px;
     }
 
     /* banner */
